@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // @ts-check
 
 /**
@@ -19,3 +20,11 @@ module.exports = {
     return config;
   },
 };
+=======
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export'
+}
+
+module.exports = nextConfig
+>>>>>>> 4b7fdea (first commit)

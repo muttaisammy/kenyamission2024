@@ -1,10 +1,15 @@
 {
+<<<<<<< HEAD
   "name": "shellbear.me",
+=======
+  "name": "travel_app",
+>>>>>>> 4b7fdea (first commit)
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+<<<<<<< HEAD
     "postbuild": "next-sitemap",
     "lint": "next lint",
     "start": "next start",
@@ -52,5 +57,23 @@
     "next-sitemap": "^4.1.8",
     "pretty-quick": "^3.1.3",
     "typescript": "^5.1.6"
+=======
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "13.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+>>>>>>> 4b7fdea (first commit)
   }
 }
